@@ -2,7 +2,7 @@ const fs = require("fs");
 const insertRow = require("./insertRow.js");
 const parser = require("csv-parser");
 
-// fs.createReadStream("../SRC/csvs/Division.csv")
+// fs.createReadStream("../config/csvs/Division.csv")
 //   .pipe(parser({ delimiter: ",", from_line: 2 }))
 //   .on("data", function (row) {
 //     //console.log(row);
@@ -15,7 +15,7 @@ const parser = require("csv-parser");
 //     console.log(error.message);
 //   });
 
-// fs.createReadStream("../SRC/csvs/Team.csv")
+// fs.createReadStream("../config/csvs/Team.csv")
 //   .pipe(parser({ delimiter: ",", from_line: 2 }))
 //   .on("data", function (row) {
 //     //console.log(row);
@@ -28,7 +28,7 @@ const parser = require("csv-parser");
 //     console.log(error.message);
 //   });
 
-// fs.createReadStream("../SRC/csvs/Game.csv")
+// fs.createReadStream("../config/csvs/Game.csv")
 //   .pipe(parser({ delimiter: ",", from_line: 2 }))
 //   .on("data", function (row) {
 //     //console.log(row);
@@ -41,7 +41,7 @@ const parser = require("csv-parser");
 //     console.log(error.message);
 //   });
 
-// fs.createReadStream("../SRC/csvs/TeamAbbreviation.csv")
+// fs.createReadStream("../config/csvs/TeamAbbreviation.csv")
 //   .pipe(parser({ delimiter: ",", from_line: 2 }))
 //   .on("data", function (row) {
 //     //console.log(row);
@@ -54,7 +54,7 @@ const parser = require("csv-parser");
 //     console.log(error.message);
 //   });
 
-// fs.createReadStream("../SRC/csvs/DefensiveFootballPlayer.csv")
+// fs.createReadStream("../config/csvs/DefensiveFootballPlayer.csv")
 //   .pipe(parser({ delimiter: ",", from_line: 2 }))
 //   .on("data", function (row) {
 //     //console.log(row);
@@ -67,7 +67,7 @@ const parser = require("csv-parser");
 //     console.log(error.message);
 //   });
 
-// fs.createReadStream("../SRC/csvs/OffensiveFootballPlayer.csv")
+// fs.createReadStream("../config/csvs/OffensiveFootballPlayer.csv")
 //   .pipe(parser({ delimiter: ",", from_line: 2 }))
 //   .on("data", function (row) {
 //     //console.log(row);
@@ -80,7 +80,7 @@ const parser = require("csv-parser");
 //     console.log(error.message);
 //   });
 
-// fs.createReadStream("../SRC/csvs/Kicker.csv")
+// fs.createReadStream("../config/csvs/Kicker.csv")
 //   .pipe(parser({ delimiter: ",", from_line: 2 }))
 //   .on("data", function (row) {
 //     //console.log(row);

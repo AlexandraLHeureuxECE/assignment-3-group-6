@@ -33,6 +33,16 @@ app.get("/login/:email", (req, res) => {
   });
 });
 
+// search for an offensive player and get their stats
+app.get('/api/search/off/:player', (req, res) => {
+  let pName = req.params.player;
+  let query = 'SELECT * FROM OffensiveFootballPlayer WHERE pf_name == ' + pName + ' OR pl_name == ' + pName;
+  connection.query(query, (err, data) => {
+    if(err) throw err;
+    res.send(data);
+  }) 
+})
+
 app.listen(8000, () => {
   console.log(`Server is running on port 8000.`);
 });

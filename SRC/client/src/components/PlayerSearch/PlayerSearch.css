@@ -1,0 +1,6 @@
+#textBox{
+    width: 500px;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+}
